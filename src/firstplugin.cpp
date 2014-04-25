@@ -23,7 +23,7 @@ FirstPlugin::FirstPlugin() : rviz::Display()
                                                     "default string",
                                                     "description",
                                                     this,
-                                                    SLOT ( stringPropertyHasChanged() ));\
+                                                    SLOT ( stringPropertyHasChanged() ));
 
     sampleFloatProperty = new rviz::FloatProperty("My float",
                                                   1.23,
