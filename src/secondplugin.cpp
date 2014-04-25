@@ -5,9 +5,7 @@ namespace rviz_plugin_template
 
 SecondPlugin::SecondPlugin() : rviz::Display()
 {
-
-
-
+    //Add additional properties here
 }
 
 SecondPlugin::~SecondPlugin()

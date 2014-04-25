@@ -33,6 +33,7 @@ private Q_SLOTS:
     void intPropertyHasChanged();
     void colorPropertyHasChanged();
     void floatPropertyHasChanged();
+    //Add more slots here
 
 private:
     rviz::RosTopicProperty* sampleRosTopicProperty;

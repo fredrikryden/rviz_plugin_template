@@ -36,6 +36,7 @@ FirstPlugin::FirstPlugin() : rviz::Display()
                                               "description",
                                               this,
                                               SLOT ( intPropertyHasChanged() ));
+    //Add additional properties here
 }
 
 FirstPlugin::~FirstPlugin()

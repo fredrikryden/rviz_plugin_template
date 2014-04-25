@@ -27,6 +27,8 @@ protected:
     virtual void onEnable();
     virtual void onDisable();
 
+    //Add slots here
+
 private:
 
 };
