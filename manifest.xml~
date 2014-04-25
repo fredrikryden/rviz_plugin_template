@@ -1,0 +1,19 @@
+<package>
+  <description brief="rviz_plugin_template">
+
+     rviz_plugin_template
+
+  </description>
+  <author>biorobotics</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rviz_plugin_template</url>
+  <depend package="roscpp"/>
+  <depend package="rviz"/>
+ <export>
+      <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+
+</package>
+
+
